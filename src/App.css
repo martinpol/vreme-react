@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.forecast {
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+.forecast__hours {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--location {
+  text-align: center;
+}
+
+.forecast__hour {
+  text-align: left;
+}
+
+.container__app {
+  margin: 32px;
+  border: 1px solid #000;
+}
+
+.choose-location {
+  text-align: center;
+  padding: 32px 32px 0px 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.city {
+  margin: 24px;
+  padding: 16px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.title {
+  padding: 16px 0px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}

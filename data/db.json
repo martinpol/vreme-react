@@ -1,0 +1,28 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "Kranj",
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=46.24&longitude=14.36&hourly=temperature_2m,relativehumidity_2m,rain,surface_pressure"
+    },
+    {
+      "id": 2,
+      "city": "Ljubljana",
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=46.05&longitude=14.51&hourly=temperature_2m,relativehumidity_2m,rain,surface_pressure"
+    },
+    {
+      "id": 3,
+      "city": "Škofja Loka",
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=46.17&longitude=14.31&hourly=temperature_2m,relativehumidity_2m,rain,surface_pressure"
+    }
+  ],
+
+  "strings": [
+    {
+      "temperature": "Temperature",
+      "humidity": "Vlaga",
+      "rain": "Dez",
+      "pressure": "Pritisk"
+    }
+  ]
+}
